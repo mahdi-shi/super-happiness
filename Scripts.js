@@ -16,7 +16,6 @@ else{
 
 //event for change
 endDate.addEventListener("change",function(e){
-    alert("hello for test");
     e.preventDefault();
     clearInterval(timeInterval)
     let temp = new Date(endDate.value);
